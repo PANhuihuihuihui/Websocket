@@ -20,9 +20,8 @@ namespace {
 
 struct Handler : WebSocket::Handler {
     std::set<WebSocket*> _cons;
-    std::string encode_image;
     void update_img(std::string str){
-        encode_image = str;
+        send(str);
     }
     void onConnect(WebSocket* con) override {
         _cons.insert(con);
@@ -39,12 +38,11 @@ struct Handler : WebSocket::Handler {
 
     void send(const std::string& msg) {
         for (auto* con : _cons) {
-            con->send(encode_image);
+            con->send(msg);
         }
     }
 };
 using namespace cv;
-VideoCapture capture(0);
 
 int main()
 {
@@ -52,12 +50,11 @@ int main()
     // server.addPageHandler(std::make_shared<MyAuthHandler>());
     server.addWebSocketHandler("/IoT", std::make_shared<Handler>());
     server.serve("src/IoT_project", 8888);
+    std::image_path = "apple.png";
     Mat img = imread(image_path, IMREAD_COLOR);
     std::vector<uchar> data_encode;
     while (1)
 	{
-		if (!capture.read(img)) 
-			break;
         if(img.empty())
         {
             std::cout << "Could not read the image: " << image_path << std::endl;
@@ -66,6 +63,8 @@ int main()
         imencode(".png", img, data_encode);
         auto base64_png = reinterpret_cast<const unsigned char*>(data_encode.data());
                 std::string encoded_png = "data:image/png;base64,"+base64_encode(base64_png,data_encode.size());
+        Handler.update_img(base64_png);
+
         int k = waitKey(0); // Wait for a keystroke in the window
     }
 
