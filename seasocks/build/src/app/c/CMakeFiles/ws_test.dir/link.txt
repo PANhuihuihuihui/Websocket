@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/ws_test.dir/ws_test.cpp.o  -o ws_test ../../main/c/libseasocks.a -lpthread /usr/lib/arm-linux-gnueabihf/libz.so 

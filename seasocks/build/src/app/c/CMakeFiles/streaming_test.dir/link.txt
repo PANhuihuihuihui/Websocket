@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/streaming_test.dir/streaming_test.cpp.o  -o streaming_test ../../main/c/libseasocks.a -lpthread /usr/lib/arm-linux-gnueabihf/libz.so 

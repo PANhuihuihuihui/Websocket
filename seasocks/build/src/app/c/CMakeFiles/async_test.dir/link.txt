@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/async_test.dir/async_test.cpp.o  -o async_test ../../main/c/libseasocks.a -lpthread /usr/lib/arm-linux-gnueabihf/libz.so 

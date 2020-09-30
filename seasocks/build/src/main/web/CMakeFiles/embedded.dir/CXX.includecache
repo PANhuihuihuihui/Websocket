@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/main/c/./internal/Embedded.h
+string
+-
+
+/home/pi/Desktop/seasocks/build/src/main/web/Embedded.cpp
+internal/Embedded.h
+/home/pi/Desktop/seasocks/build/src/main/web/internal/Embedded.h
+string
+-
+unordered_map
+-
+

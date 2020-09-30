@@ -7,7 +7,7 @@ LIBS          = -lopencv_gapi -lz -lopencv_stitching -lopencv_aruco -lopencv_bgs
 
 
 
-SEASOCKS := ../seasocks
+SEASOCKS := ./seasocks
 
 INCLUDES := -I $(SEASOCKS) -I $(SEASOCKS)/src/main/c/internal -I $(SEASOCKS)/src/main/c/seasocks \
 	-I $(SEASOCKS)/src/main/c -I $(SEASOCKS)/build/src/main/c \
