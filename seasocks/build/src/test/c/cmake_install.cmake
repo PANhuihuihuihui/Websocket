@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Desktop/seasocks/src/test/c
+# Install script for directory: /home/pi/Desktop/Websocket/seasocks/src/test/c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

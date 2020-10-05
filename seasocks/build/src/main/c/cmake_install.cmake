@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Desktop/seasocks/src/main/c
+# Install script for directory: /home/pi/Desktop/Websocket/seasocks/src/main/c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,22 +38,22 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/pi/Desktop/seasocks/build/src/main/c/libseasocks.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/pi/Desktop/Websocket/seasocks/build/src/main/c/libseasocks.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/pi/Desktop/seasocks/src/main/c/seasocks" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/pi/Desktop/Websocket/seasocks/src/main/c/seasocks" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/seasocks/internal" TYPE FILE FILES "/home/pi/Desktop/seasocks/build/internal/Config.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/seasocks/internal" TYPE FILE FILES "/home/pi/Desktop/Websocket/seasocks/build/internal/Config.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Seasocks/SeasocksTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Seasocks/SeasocksTargets.cmake"
-         "/home/pi/Desktop/seasocks/build/src/main/c/CMakeFiles/Export/lib/cmake/Seasocks/SeasocksTargets.cmake")
+         "/home/pi/Desktop/Websocket/seasocks/build/src/main/c/CMakeFiles/Export/lib/cmake/Seasocks/SeasocksTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Seasocks/SeasocksTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -62,9 +62,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Seasocks" TYPE FILE FILES "/home/pi/Desktop/seasocks/build/src/main/c/CMakeFiles/Export/lib/cmake/Seasocks/SeasocksTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Seasocks" TYPE FILE FILES "/home/pi/Desktop/Websocket/seasocks/build/src/main/c/CMakeFiles/Export/lib/cmake/Seasocks/SeasocksTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Seasocks" TYPE FILE FILES "/home/pi/Desktop/seasocks/build/src/main/c/CMakeFiles/Export/lib/cmake/Seasocks/SeasocksTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Seasocks" TYPE FILE FILES "/home/pi/Desktop/Websocket/seasocks/build/src/main/c/CMakeFiles/Export/lib/cmake/Seasocks/SeasocksTargets-noconfig.cmake")
   endif()
 endif()
 

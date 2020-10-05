@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/seasocks
+CMAKE_SOURCE_DIR = /home/pi/Desktop/Websocket/seasocks
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/seasocks/build
+CMAKE_BINARY_DIR = /home/pi/Desktop/Websocket/seasocks/build
 
 # Utility rule file for NightlyStart.
 
@@ -71,6 +71,6 @@ CMakeFiles/NightlyStart.dir/clean:
 .PHONY : CMakeFiles/NightlyStart.dir/clean
 
 CMakeFiles/NightlyStart.dir/depend:
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Desktop/seasocks /home/pi/Desktop/seasocks /home/pi/Desktop/seasocks/build /home/pi/Desktop/seasocks/build /home/pi/Desktop/seasocks/build/CMakeFiles/NightlyStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Desktop/Websocket/seasocks /home/pi/Desktop/Websocket/seasocks /home/pi/Desktop/Websocket/seasocks/build /home/pi/Desktop/Websocket/seasocks/build /home/pi/Desktop/Websocket/seasocks/build/CMakeFiles/NightlyStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyStart.dir/depend
 

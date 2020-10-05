@@ -10,4 +10,4 @@ src/app/c/CMakeFiles/ws_echo.dir/ws_echo.cpp.o
  ../src/main/c/./seasocks/ServerImpl.h
  ../src/main/c/./seasocks/StringUtil.h
  ../src/main/c/./seasocks/WebSocket.h
- /home/pi/Desktop/seasocks/src/app/c/ws_echo.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/app/c/ws_echo.cpp

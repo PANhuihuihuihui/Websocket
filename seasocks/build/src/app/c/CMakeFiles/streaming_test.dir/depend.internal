@@ -18,4 +18,4 @@ src/app/c/CMakeFiles/streaming_test.dir/streaming_test.cpp.o
  ../src/main/c/./seasocks/StringUtil.h
  ../src/main/c/./seasocks/TransferEncoding.h
  ../src/main/c/./seasocks/WebSocket.h
- /home/pi/Desktop/seasocks/src/app/c/streaming_test.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/app/c/streaming_test.cpp

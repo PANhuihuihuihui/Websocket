@@ -102,17 +102,17 @@ type_traits
 vector
 -
 
-/home/pi/Desktop/seasocks/src/app/c/ws_test.cpp
+/home/pi/Desktop/Websocket/seasocks/src/app/c/ws_test.cpp
 seasocks/PrintfLogger.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/PrintfLogger.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/PrintfLogger.h
 seasocks/Server.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/Server.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/Server.h
 seasocks/StringUtil.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/StringUtil.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/StringUtil.h
 seasocks/WebSocket.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/WebSocket.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/WebSocket.h
 seasocks/util/Json.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/util/Json.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/util/Json.h
 cstring
 -
 iostream

@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Desktop/seasocks/src
+# Install script for directory: /home/pi/Desktop/Websocket/seasocks/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pi/Desktop/seasocks/build/src/main/c/cmake_install.cmake")
-  include("/home/pi/Desktop/seasocks/build/src/main/web/cmake_install.cmake")
-  include("/home/pi/Desktop/seasocks/build/src/app/c/cmake_install.cmake")
-  include("/home/pi/Desktop/seasocks/build/src/test/c/cmake_install.cmake")
+  include("/home/pi/Desktop/Websocket/seasocks/build/src/main/c/cmake_install.cmake")
+  include("/home/pi/Desktop/Websocket/seasocks/build/src/main/web/cmake_install.cmake")
+  include("/home/pi/Desktop/Websocket/seasocks/build/src/app/c/cmake_install.cmake")
+  include("/home/pi/Desktop/Websocket/seasocks/build/src/test/c/cmake_install.cmake")
 
 endif()
 

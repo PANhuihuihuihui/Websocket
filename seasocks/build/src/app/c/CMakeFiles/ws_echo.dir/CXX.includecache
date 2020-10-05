@@ -84,15 +84,15 @@ string
 vector
 -
 
-/home/pi/Desktop/seasocks/src/app/c/ws_echo.cpp
+/home/pi/Desktop/Websocket/seasocks/src/app/c/ws_echo.cpp
 seasocks/PrintfLogger.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/PrintfLogger.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/PrintfLogger.h
 seasocks/Server.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/Server.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/Server.h
 seasocks/StringUtil.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/StringUtil.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/StringUtil.h
 seasocks/WebSocket.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/WebSocket.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/WebSocket.h
 cstring
 -
 iostream

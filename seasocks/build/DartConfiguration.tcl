@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/pi/Desktop/seasocks
-BuildDirectory: /home/pi/Desktop/seasocks/build
+SourceDirectory: /home/pi/Desktop/Websocket/seasocks
+BuildDirectory: /home/pi/Desktop/Websocket/seasocks/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/pi/Desktop/seasocks"
+ConfigureCommand: "/usr/bin/cmake" "/home/pi/Desktop/Websocket/seasocks"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -67,9 +67,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/bin/git
+UpdateCommand: 
 UpdateOptions: 
-UpdateType: git
+UpdateType: 
 
 # Compiler info
 Compiler: /usr/bin/c++
@@ -83,7 +83,7 @@ MemoryCheckType:
 MemoryCheckSanitizerOptions: 
 MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
 MemoryCheckCommandOptions: 
-MemoryCheckSuppressionFile: /home/pi/Desktop/seasocks/src/test/suppressions.txt
+MemoryCheckSuppressionFile: /home/pi/Desktop/Websocket/seasocks/src/test/suppressions.txt
 
 # Coverage
 CoverageCommand: /usr/bin/gcov

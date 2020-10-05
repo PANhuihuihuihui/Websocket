@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/seasocks
+CMAKE_SOURCE_DIR = /home/pi/Desktop/Websocket/seasocks
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/seasocks/build
+CMAKE_BINARY_DIR = /home/pi/Desktop/Websocket/seasocks/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/seasocks/build/CMakeFiles /home/pi/Desktop/seasocks/build/src/test/c/CMakeFiles/progress.marks
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/seasocks/build/CMakeFiles 0
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Websocket/seasocks/build/CMakeFiles /home/pi/Desktop/Websocket/seasocks/build/src/test/c/CMakeFiles/progress.marks
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Websocket/seasocks/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/clean
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/preinstall
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/preinstall
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/test/c/CMakeFiles/AllTests.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/CMakeFiles/AllTests.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/test/c/CMakeFiles/AllTests.dir/rule
 .PHONY : src/test/c/CMakeFiles/AllTests.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ AllTests: src/test/c/CMakeFiles/AllTests.dir/rule
 
 # fast build rule for target.
 AllTests/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/build
 .PHONY : AllTests/fast
 
 ConnectionTests.o: ConnectionTests.cpp.o
@@ -188,7 +188,7 @@ ConnectionTests.o: ConnectionTests.cpp.o
 
 # target to build an object file
 ConnectionTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ConnectionTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ConnectionTests.cpp.o
 .PHONY : ConnectionTests.cpp.o
 
 ConnectionTests.i: ConnectionTests.cpp.i
@@ -197,7 +197,7 @@ ConnectionTests.i: ConnectionTests.cpp.i
 
 # target to preprocess a source file
 ConnectionTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ConnectionTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ConnectionTests.cpp.i
 .PHONY : ConnectionTests.cpp.i
 
 ConnectionTests.s: ConnectionTests.cpp.s
@@ -206,7 +206,7 @@ ConnectionTests.s: ConnectionTests.cpp.s
 
 # target to generate assembly for a file
 ConnectionTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ConnectionTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ConnectionTests.cpp.s
 .PHONY : ConnectionTests.cpp.s
 
 CrackedUriTests.o: CrackedUriTests.cpp.o
@@ -215,7 +215,7 @@ CrackedUriTests.o: CrackedUriTests.cpp.o
 
 # target to build an object file
 CrackedUriTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/CrackedUriTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/CrackedUriTests.cpp.o
 .PHONY : CrackedUriTests.cpp.o
 
 CrackedUriTests.i: CrackedUriTests.cpp.i
@@ -224,7 +224,7 @@ CrackedUriTests.i: CrackedUriTests.cpp.i
 
 # target to preprocess a source file
 CrackedUriTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/CrackedUriTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/CrackedUriTests.cpp.i
 .PHONY : CrackedUriTests.cpp.i
 
 CrackedUriTests.s: CrackedUriTests.cpp.s
@@ -233,7 +233,7 @@ CrackedUriTests.s: CrackedUriTests.cpp.s
 
 # target to generate assembly for a file
 CrackedUriTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/CrackedUriTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/CrackedUriTests.cpp.s
 .PHONY : CrackedUriTests.cpp.s
 
 EmbeddedContentTests.o: EmbeddedContentTests.cpp.o
@@ -242,7 +242,7 @@ EmbeddedContentTests.o: EmbeddedContentTests.cpp.o
 
 # target to build an object file
 EmbeddedContentTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/EmbeddedContentTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/EmbeddedContentTests.cpp.o
 .PHONY : EmbeddedContentTests.cpp.o
 
 EmbeddedContentTests.i: EmbeddedContentTests.cpp.i
@@ -251,7 +251,7 @@ EmbeddedContentTests.i: EmbeddedContentTests.cpp.i
 
 # target to preprocess a source file
 EmbeddedContentTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/EmbeddedContentTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/EmbeddedContentTests.cpp.i
 .PHONY : EmbeddedContentTests.cpp.i
 
 EmbeddedContentTests.s: EmbeddedContentTests.cpp.s
@@ -260,7 +260,7 @@ EmbeddedContentTests.s: EmbeddedContentTests.cpp.s
 
 # target to generate assembly for a file
 EmbeddedContentTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/EmbeddedContentTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/EmbeddedContentTests.cpp.s
 .PHONY : EmbeddedContentTests.cpp.s
 
 HeaderMapTests.o: HeaderMapTests.cpp.o
@@ -269,7 +269,7 @@ HeaderMapTests.o: HeaderMapTests.cpp.o
 
 # target to build an object file
 HeaderMapTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HeaderMapTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HeaderMapTests.cpp.o
 .PHONY : HeaderMapTests.cpp.o
 
 HeaderMapTests.i: HeaderMapTests.cpp.i
@@ -278,7 +278,7 @@ HeaderMapTests.i: HeaderMapTests.cpp.i
 
 # target to preprocess a source file
 HeaderMapTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HeaderMapTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HeaderMapTests.cpp.i
 .PHONY : HeaderMapTests.cpp.i
 
 HeaderMapTests.s: HeaderMapTests.cpp.s
@@ -287,7 +287,7 @@ HeaderMapTests.s: HeaderMapTests.cpp.s
 
 # target to generate assembly for a file
 HeaderMapTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HeaderMapTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HeaderMapTests.cpp.s
 .PHONY : HeaderMapTests.cpp.s
 
 HtmlTests.o: HtmlTests.cpp.o
@@ -296,7 +296,7 @@ HtmlTests.o: HtmlTests.cpp.o
 
 # target to build an object file
 HtmlTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HtmlTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HtmlTests.cpp.o
 .PHONY : HtmlTests.cpp.o
 
 HtmlTests.i: HtmlTests.cpp.i
@@ -305,7 +305,7 @@ HtmlTests.i: HtmlTests.cpp.i
 
 # target to preprocess a source file
 HtmlTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HtmlTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HtmlTests.cpp.i
 .PHONY : HtmlTests.cpp.i
 
 HtmlTests.s: HtmlTests.cpp.s
@@ -314,7 +314,7 @@ HtmlTests.s: HtmlTests.cpp.s
 
 # target to generate assembly for a file
 HtmlTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HtmlTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HtmlTests.cpp.s
 .PHONY : HtmlTests.cpp.s
 
 HybiTests.o: HybiTests.cpp.o
@@ -323,7 +323,7 @@ HybiTests.o: HybiTests.cpp.o
 
 # target to build an object file
 HybiTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HybiTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HybiTests.cpp.o
 .PHONY : HybiTests.cpp.o
 
 HybiTests.i: HybiTests.cpp.i
@@ -332,7 +332,7 @@ HybiTests.i: HybiTests.cpp.i
 
 # target to preprocess a source file
 HybiTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HybiTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HybiTests.cpp.i
 .PHONY : HybiTests.cpp.i
 
 HybiTests.s: HybiTests.cpp.s
@@ -341,7 +341,7 @@ HybiTests.s: HybiTests.cpp.s
 
 # target to generate assembly for a file
 HybiTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HybiTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/HybiTests.cpp.s
 .PHONY : HybiTests.cpp.s
 
 JsonTests.o: JsonTests.cpp.o
@@ -350,7 +350,7 @@ JsonTests.o: JsonTests.cpp.o
 
 # target to build an object file
 JsonTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/JsonTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/JsonTests.cpp.o
 .PHONY : JsonTests.cpp.o
 
 JsonTests.i: JsonTests.cpp.i
@@ -359,7 +359,7 @@ JsonTests.i: JsonTests.cpp.i
 
 # target to preprocess a source file
 JsonTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/JsonTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/JsonTests.cpp.i
 .PHONY : JsonTests.cpp.i
 
 JsonTests.s: JsonTests.cpp.s
@@ -368,7 +368,7 @@ JsonTests.s: JsonTests.cpp.s
 
 # target to generate assembly for a file
 JsonTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/JsonTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/JsonTests.cpp.s
 .PHONY : JsonTests.cpp.s
 
 RequestTest.o: RequestTest.cpp.o
@@ -377,7 +377,7 @@ RequestTest.o: RequestTest.cpp.o
 
 # target to build an object file
 RequestTest.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/RequestTest.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/RequestTest.cpp.o
 .PHONY : RequestTest.cpp.o
 
 RequestTest.i: RequestTest.cpp.i
@@ -386,7 +386,7 @@ RequestTest.i: RequestTest.cpp.i
 
 # target to preprocess a source file
 RequestTest.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/RequestTest.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/RequestTest.cpp.i
 .PHONY : RequestTest.cpp.i
 
 RequestTest.s: RequestTest.cpp.s
@@ -395,7 +395,7 @@ RequestTest.s: RequestTest.cpp.s
 
 # target to generate assembly for a file
 RequestTest.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/RequestTest.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/RequestTest.cpp.s
 .PHONY : RequestTest.cpp.s
 
 ResponseBuilderTests.o: ResponseBuilderTests.cpp.o
@@ -404,7 +404,7 @@ ResponseBuilderTests.o: ResponseBuilderTests.cpp.o
 
 # target to build an object file
 ResponseBuilderTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseBuilderTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseBuilderTests.cpp.o
 .PHONY : ResponseBuilderTests.cpp.o
 
 ResponseBuilderTests.i: ResponseBuilderTests.cpp.i
@@ -413,7 +413,7 @@ ResponseBuilderTests.i: ResponseBuilderTests.cpp.i
 
 # target to preprocess a source file
 ResponseBuilderTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseBuilderTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseBuilderTests.cpp.i
 .PHONY : ResponseBuilderTests.cpp.i
 
 ResponseBuilderTests.s: ResponseBuilderTests.cpp.s
@@ -422,7 +422,7 @@ ResponseBuilderTests.s: ResponseBuilderTests.cpp.s
 
 # target to generate assembly for a file
 ResponseBuilderTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseBuilderTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseBuilderTests.cpp.s
 .PHONY : ResponseBuilderTests.cpp.s
 
 ResponseTests.o: ResponseTests.cpp.o
@@ -431,7 +431,7 @@ ResponseTests.o: ResponseTests.cpp.o
 
 # target to build an object file
 ResponseTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseTests.cpp.o
 .PHONY : ResponseTests.cpp.o
 
 ResponseTests.i: ResponseTests.cpp.i
@@ -440,7 +440,7 @@ ResponseTests.i: ResponseTests.cpp.i
 
 # target to preprocess a source file
 ResponseTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseTests.cpp.i
 .PHONY : ResponseTests.cpp.i
 
 ResponseTests.s: ResponseTests.cpp.s
@@ -449,7 +449,7 @@ ResponseTests.s: ResponseTests.cpp.s
 
 # target to generate assembly for a file
 ResponseTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ResponseTests.cpp.s
 .PHONY : ResponseTests.cpp.s
 
 ServerTests.o: ServerTests.cpp.o
@@ -458,7 +458,7 @@ ServerTests.o: ServerTests.cpp.o
 
 # target to build an object file
 ServerTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ServerTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ServerTests.cpp.o
 .PHONY : ServerTests.cpp.o
 
 ServerTests.i: ServerTests.cpp.i
@@ -467,7 +467,7 @@ ServerTests.i: ServerTests.cpp.i
 
 # target to preprocess a source file
 ServerTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ServerTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ServerTests.cpp.i
 .PHONY : ServerTests.cpp.i
 
 ServerTests.s: ServerTests.cpp.s
@@ -476,7 +476,7 @@ ServerTests.s: ServerTests.cpp.s
 
 # target to generate assembly for a file
 ServerTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ServerTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ServerTests.cpp.s
 .PHONY : ServerTests.cpp.s
 
 StringUtilTests.o: StringUtilTests.cpp.o
@@ -485,7 +485,7 @@ StringUtilTests.o: StringUtilTests.cpp.o
 
 # target to build an object file
 StringUtilTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/StringUtilTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/StringUtilTests.cpp.o
 .PHONY : StringUtilTests.cpp.o
 
 StringUtilTests.i: StringUtilTests.cpp.i
@@ -494,7 +494,7 @@ StringUtilTests.i: StringUtilTests.cpp.i
 
 # target to preprocess a source file
 StringUtilTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/StringUtilTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/StringUtilTests.cpp.i
 .PHONY : StringUtilTests.cpp.i
 
 StringUtilTests.s: StringUtilTests.cpp.s
@@ -503,7 +503,7 @@ StringUtilTests.s: StringUtilTests.cpp.s
 
 # target to generate assembly for a file
 StringUtilTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/StringUtilTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/StringUtilTests.cpp.s
 .PHONY : StringUtilTests.cpp.s
 
 ToStringTests.o: ToStringTests.cpp.o
@@ -512,7 +512,7 @@ ToStringTests.o: ToStringTests.cpp.o
 
 # target to build an object file
 ToStringTests.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ToStringTests.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ToStringTests.cpp.o
 .PHONY : ToStringTests.cpp.o
 
 ToStringTests.i: ToStringTests.cpp.i
@@ -521,7 +521,7 @@ ToStringTests.i: ToStringTests.cpp.i
 
 # target to preprocess a source file
 ToStringTests.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ToStringTests.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ToStringTests.cpp.i
 .PHONY : ToStringTests.cpp.i
 
 ToStringTests.s: ToStringTests.cpp.s
@@ -530,7 +530,7 @@ ToStringTests.s: ToStringTests.cpp.s
 
 # target to generate assembly for a file
 ToStringTests.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ToStringTests.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/ToStringTests.cpp.s
 .PHONY : ToStringTests.cpp.s
 
 test_main.o: test_main.cpp.o
@@ -539,7 +539,7 @@ test_main.o: test_main.cpp.o
 
 # target to build an object file
 test_main.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/test_main.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/test_main.cpp.o
 .PHONY : test_main.cpp.o
 
 test_main.i: test_main.cpp.i
@@ -548,7 +548,7 @@ test_main.i: test_main.cpp.i
 
 # target to preprocess a source file
 test_main.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/test_main.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/test_main.cpp.i
 .PHONY : test_main.cpp.i
 
 test_main.s: test_main.cpp.s
@@ -557,7 +557,7 @@ test_main.s: test_main.cpp.s
 
 # target to generate assembly for a file
 test_main.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/test_main.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/test/c/CMakeFiles/AllTests.dir/build.make src/test/c/CMakeFiles/AllTests.dir/test_main.cpp.s
 .PHONY : test_main.cpp.s
 
 # Help Target
@@ -627,6 +627,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

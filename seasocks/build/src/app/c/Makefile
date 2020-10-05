@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/seasocks
+CMAKE_SOURCE_DIR = /home/pi/Desktop/Websocket/seasocks
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/seasocks/build
+CMAKE_BINARY_DIR = /home/pi/Desktop/Websocket/seasocks/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/seasocks/build/CMakeFiles /home/pi/Desktop/seasocks/build/src/app/c/CMakeFiles/progress.marks
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/seasocks/build/CMakeFiles 0
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Websocket/seasocks/build/CMakeFiles /home/pi/Desktop/Websocket/seasocks/build/src/app/c/CMakeFiles/progress.marks
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Websocket/seasocks/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/clean
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/preinstall
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/preinstall
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/app/c/CMakeFiles/async_test.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/async_test.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/async_test.dir/rule
 .PHONY : src/app/c/CMakeFiles/async_test.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ async_test: src/app/c/CMakeFiles/async_test.dir/rule
 
 # fast build rule for target.
 async_test/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/async_test.dir/build.make src/app/c/CMakeFiles/async_test.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/async_test.dir/build.make src/app/c/CMakeFiles/async_test.dir/build
 .PHONY : async_test/fast
 
 # Convenience name for target.
 src/app/c/CMakeFiles/serve.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/serve.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/serve.dir/rule
 .PHONY : src/app/c/CMakeFiles/serve.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ serve: src/app/c/CMakeFiles/serve.dir/rule
 
 # fast build rule for target.
 serve/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/serve.dir/build.make src/app/c/CMakeFiles/serve.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/serve.dir/build.make src/app/c/CMakeFiles/serve.dir/build
 .PHONY : serve/fast
 
 # Convenience name for target.
 src/app/c/CMakeFiles/ph_test.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ph_test.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ph_test.dir/rule
 .PHONY : src/app/c/CMakeFiles/ph_test.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ ph_test: src/app/c/CMakeFiles/ph_test.dir/rule
 
 # fast build rule for target.
 ph_test/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ph_test.dir/build.make src/app/c/CMakeFiles/ph_test.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ph_test.dir/build.make src/app/c/CMakeFiles/ph_test.dir/build
 .PHONY : ph_test/fast
 
 # Convenience name for target.
 src/app/c/CMakeFiles/streaming_test.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/streaming_test.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/streaming_test.dir/rule
 .PHONY : src/app/c/CMakeFiles/streaming_test.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ streaming_test: src/app/c/CMakeFiles/streaming_test.dir/rule
 
 # fast build rule for target.
 streaming_test/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/streaming_test.dir/build.make src/app/c/CMakeFiles/streaming_test.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/streaming_test.dir/build.make src/app/c/CMakeFiles/streaming_test.dir/build
 .PHONY : streaming_test/fast
 
 # Convenience name for target.
 src/app/c/CMakeFiles/ws_chatroom.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ws_chatroom.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ws_chatroom.dir/rule
 .PHONY : src/app/c/CMakeFiles/ws_chatroom.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ ws_chatroom: src/app/c/CMakeFiles/ws_chatroom.dir/rule
 
 # fast build rule for target.
 ws_chatroom/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_chatroom.dir/build.make src/app/c/CMakeFiles/ws_chatroom.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_chatroom.dir/build.make src/app/c/CMakeFiles/ws_chatroom.dir/build
 .PHONY : ws_chatroom/fast
 
 # Convenience name for target.
 src/app/c/CMakeFiles/ws_echo.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ws_echo.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ws_echo.dir/rule
 .PHONY : src/app/c/CMakeFiles/ws_echo.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ ws_echo: src/app/c/CMakeFiles/ws_echo.dir/rule
 
 # fast build rule for target.
 ws_echo/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_echo.dir/build.make src/app/c/CMakeFiles/ws_echo.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_echo.dir/build.make src/app/c/CMakeFiles/ws_echo.dir/build
 .PHONY : ws_echo/fast
 
 # Convenience name for target.
 src/app/c/CMakeFiles/ws_test.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ws_test.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ws_test.dir/rule
 .PHONY : src/app/c/CMakeFiles/ws_test.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ ws_test: src/app/c/CMakeFiles/ws_test.dir/rule
 
 # fast build rule for target.
 ws_test/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test.dir/build.make src/app/c/CMakeFiles/ws_test.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test.dir/build.make src/app/c/CMakeFiles/ws_test.dir/build
 .PHONY : ws_test/fast
 
 # Convenience name for target.
 src/app/c/CMakeFiles/ws_test_poll.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ws_test_poll.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/c/CMakeFiles/ws_test_poll.dir/rule
 .PHONY : src/app/c/CMakeFiles/ws_test_poll.dir/rule
 
 # Convenience name for target.
@@ -284,7 +284,7 @@ ws_test_poll: src/app/c/CMakeFiles/ws_test_poll.dir/rule
 
 # fast build rule for target.
 ws_test_poll/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test_poll.dir/build.make src/app/c/CMakeFiles/ws_test_poll.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test_poll.dir/build.make src/app/c/CMakeFiles/ws_test_poll.dir/build
 .PHONY : ws_test_poll/fast
 
 async_test.o: async_test.cpp.o
@@ -293,7 +293,7 @@ async_test.o: async_test.cpp.o
 
 # target to build an object file
 async_test.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/async_test.dir/build.make src/app/c/CMakeFiles/async_test.dir/async_test.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/async_test.dir/build.make src/app/c/CMakeFiles/async_test.dir/async_test.cpp.o
 .PHONY : async_test.cpp.o
 
 async_test.i: async_test.cpp.i
@@ -302,7 +302,7 @@ async_test.i: async_test.cpp.i
 
 # target to preprocess a source file
 async_test.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/async_test.dir/build.make src/app/c/CMakeFiles/async_test.dir/async_test.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/async_test.dir/build.make src/app/c/CMakeFiles/async_test.dir/async_test.cpp.i
 .PHONY : async_test.cpp.i
 
 async_test.s: async_test.cpp.s
@@ -311,7 +311,7 @@ async_test.s: async_test.cpp.s
 
 # target to generate assembly for a file
 async_test.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/async_test.dir/build.make src/app/c/CMakeFiles/async_test.dir/async_test.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/async_test.dir/build.make src/app/c/CMakeFiles/async_test.dir/async_test.cpp.s
 .PHONY : async_test.cpp.s
 
 ph_test.o: ph_test.cpp.o
@@ -320,7 +320,7 @@ ph_test.o: ph_test.cpp.o
 
 # target to build an object file
 ph_test.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ph_test.dir/build.make src/app/c/CMakeFiles/ph_test.dir/ph_test.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ph_test.dir/build.make src/app/c/CMakeFiles/ph_test.dir/ph_test.cpp.o
 .PHONY : ph_test.cpp.o
 
 ph_test.i: ph_test.cpp.i
@@ -329,7 +329,7 @@ ph_test.i: ph_test.cpp.i
 
 # target to preprocess a source file
 ph_test.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ph_test.dir/build.make src/app/c/CMakeFiles/ph_test.dir/ph_test.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ph_test.dir/build.make src/app/c/CMakeFiles/ph_test.dir/ph_test.cpp.i
 .PHONY : ph_test.cpp.i
 
 ph_test.s: ph_test.cpp.s
@@ -338,7 +338,7 @@ ph_test.s: ph_test.cpp.s
 
 # target to generate assembly for a file
 ph_test.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ph_test.dir/build.make src/app/c/CMakeFiles/ph_test.dir/ph_test.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ph_test.dir/build.make src/app/c/CMakeFiles/ph_test.dir/ph_test.cpp.s
 .PHONY : ph_test.cpp.s
 
 serve.o: serve.cpp.o
@@ -347,7 +347,7 @@ serve.o: serve.cpp.o
 
 # target to build an object file
 serve.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/serve.dir/build.make src/app/c/CMakeFiles/serve.dir/serve.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/serve.dir/build.make src/app/c/CMakeFiles/serve.dir/serve.cpp.o
 .PHONY : serve.cpp.o
 
 serve.i: serve.cpp.i
@@ -356,7 +356,7 @@ serve.i: serve.cpp.i
 
 # target to preprocess a source file
 serve.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/serve.dir/build.make src/app/c/CMakeFiles/serve.dir/serve.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/serve.dir/build.make src/app/c/CMakeFiles/serve.dir/serve.cpp.i
 .PHONY : serve.cpp.i
 
 serve.s: serve.cpp.s
@@ -365,7 +365,7 @@ serve.s: serve.cpp.s
 
 # target to generate assembly for a file
 serve.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/serve.dir/build.make src/app/c/CMakeFiles/serve.dir/serve.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/serve.dir/build.make src/app/c/CMakeFiles/serve.dir/serve.cpp.s
 .PHONY : serve.cpp.s
 
 streaming_test.o: streaming_test.cpp.o
@@ -374,7 +374,7 @@ streaming_test.o: streaming_test.cpp.o
 
 # target to build an object file
 streaming_test.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/streaming_test.dir/build.make src/app/c/CMakeFiles/streaming_test.dir/streaming_test.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/streaming_test.dir/build.make src/app/c/CMakeFiles/streaming_test.dir/streaming_test.cpp.o
 .PHONY : streaming_test.cpp.o
 
 streaming_test.i: streaming_test.cpp.i
@@ -383,7 +383,7 @@ streaming_test.i: streaming_test.cpp.i
 
 # target to preprocess a source file
 streaming_test.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/streaming_test.dir/build.make src/app/c/CMakeFiles/streaming_test.dir/streaming_test.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/streaming_test.dir/build.make src/app/c/CMakeFiles/streaming_test.dir/streaming_test.cpp.i
 .PHONY : streaming_test.cpp.i
 
 streaming_test.s: streaming_test.cpp.s
@@ -392,7 +392,7 @@ streaming_test.s: streaming_test.cpp.s
 
 # target to generate assembly for a file
 streaming_test.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/streaming_test.dir/build.make src/app/c/CMakeFiles/streaming_test.dir/streaming_test.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/streaming_test.dir/build.make src/app/c/CMakeFiles/streaming_test.dir/streaming_test.cpp.s
 .PHONY : streaming_test.cpp.s
 
 ws_chatroom.o: ws_chatroom.cpp.o
@@ -401,7 +401,7 @@ ws_chatroom.o: ws_chatroom.cpp.o
 
 # target to build an object file
 ws_chatroom.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_chatroom.dir/build.make src/app/c/CMakeFiles/ws_chatroom.dir/ws_chatroom.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_chatroom.dir/build.make src/app/c/CMakeFiles/ws_chatroom.dir/ws_chatroom.cpp.o
 .PHONY : ws_chatroom.cpp.o
 
 ws_chatroom.i: ws_chatroom.cpp.i
@@ -410,7 +410,7 @@ ws_chatroom.i: ws_chatroom.cpp.i
 
 # target to preprocess a source file
 ws_chatroom.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_chatroom.dir/build.make src/app/c/CMakeFiles/ws_chatroom.dir/ws_chatroom.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_chatroom.dir/build.make src/app/c/CMakeFiles/ws_chatroom.dir/ws_chatroom.cpp.i
 .PHONY : ws_chatroom.cpp.i
 
 ws_chatroom.s: ws_chatroom.cpp.s
@@ -419,7 +419,7 @@ ws_chatroom.s: ws_chatroom.cpp.s
 
 # target to generate assembly for a file
 ws_chatroom.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_chatroom.dir/build.make src/app/c/CMakeFiles/ws_chatroom.dir/ws_chatroom.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_chatroom.dir/build.make src/app/c/CMakeFiles/ws_chatroom.dir/ws_chatroom.cpp.s
 .PHONY : ws_chatroom.cpp.s
 
 ws_echo.o: ws_echo.cpp.o
@@ -428,7 +428,7 @@ ws_echo.o: ws_echo.cpp.o
 
 # target to build an object file
 ws_echo.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_echo.dir/build.make src/app/c/CMakeFiles/ws_echo.dir/ws_echo.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_echo.dir/build.make src/app/c/CMakeFiles/ws_echo.dir/ws_echo.cpp.o
 .PHONY : ws_echo.cpp.o
 
 ws_echo.i: ws_echo.cpp.i
@@ -437,7 +437,7 @@ ws_echo.i: ws_echo.cpp.i
 
 # target to preprocess a source file
 ws_echo.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_echo.dir/build.make src/app/c/CMakeFiles/ws_echo.dir/ws_echo.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_echo.dir/build.make src/app/c/CMakeFiles/ws_echo.dir/ws_echo.cpp.i
 .PHONY : ws_echo.cpp.i
 
 ws_echo.s: ws_echo.cpp.s
@@ -446,7 +446,7 @@ ws_echo.s: ws_echo.cpp.s
 
 # target to generate assembly for a file
 ws_echo.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_echo.dir/build.make src/app/c/CMakeFiles/ws_echo.dir/ws_echo.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_echo.dir/build.make src/app/c/CMakeFiles/ws_echo.dir/ws_echo.cpp.s
 .PHONY : ws_echo.cpp.s
 
 ws_test.o: ws_test.cpp.o
@@ -455,7 +455,7 @@ ws_test.o: ws_test.cpp.o
 
 # target to build an object file
 ws_test.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test.dir/build.make src/app/c/CMakeFiles/ws_test.dir/ws_test.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test.dir/build.make src/app/c/CMakeFiles/ws_test.dir/ws_test.cpp.o
 .PHONY : ws_test.cpp.o
 
 ws_test.i: ws_test.cpp.i
@@ -464,7 +464,7 @@ ws_test.i: ws_test.cpp.i
 
 # target to preprocess a source file
 ws_test.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test.dir/build.make src/app/c/CMakeFiles/ws_test.dir/ws_test.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test.dir/build.make src/app/c/CMakeFiles/ws_test.dir/ws_test.cpp.i
 .PHONY : ws_test.cpp.i
 
 ws_test.s: ws_test.cpp.s
@@ -473,7 +473,7 @@ ws_test.s: ws_test.cpp.s
 
 # target to generate assembly for a file
 ws_test.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test.dir/build.make src/app/c/CMakeFiles/ws_test.dir/ws_test.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test.dir/build.make src/app/c/CMakeFiles/ws_test.dir/ws_test.cpp.s
 .PHONY : ws_test.cpp.s
 
 ws_test_poll.o: ws_test_poll.cpp.o
@@ -482,7 +482,7 @@ ws_test_poll.o: ws_test_poll.cpp.o
 
 # target to build an object file
 ws_test_poll.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test_poll.dir/build.make src/app/c/CMakeFiles/ws_test_poll.dir/ws_test_poll.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test_poll.dir/build.make src/app/c/CMakeFiles/ws_test_poll.dir/ws_test_poll.cpp.o
 .PHONY : ws_test_poll.cpp.o
 
 ws_test_poll.i: ws_test_poll.cpp.i
@@ -491,7 +491,7 @@ ws_test_poll.i: ws_test_poll.cpp.i
 
 # target to preprocess a source file
 ws_test_poll.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test_poll.dir/build.make src/app/c/CMakeFiles/ws_test_poll.dir/ws_test_poll.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test_poll.dir/build.make src/app/c/CMakeFiles/ws_test_poll.dir/ws_test_poll.cpp.i
 .PHONY : ws_test_poll.cpp.i
 
 ws_test_poll.s: ws_test_poll.cpp.s
@@ -500,7 +500,7 @@ ws_test_poll.s: ws_test_poll.cpp.s
 
 # target to generate assembly for a file
 ws_test_poll.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test_poll.dir/build.make src/app/c/CMakeFiles/ws_test_poll.dir/ws_test_poll.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/app/c/CMakeFiles/ws_test_poll.dir/build.make src/app/c/CMakeFiles/ws_test_poll.dir/ws_test_poll.cpp.s
 .PHONY : ws_test_poll.cpp.s
 
 # Help Target
@@ -559,6 +559,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -136,17 +136,17 @@ string
 vector
 -
 
-/home/pi/Desktop/seasocks/src/app/c/streaming_test.cpp
+/home/pi/Desktop/Websocket/seasocks/src/app/c/streaming_test.cpp
 seasocks/PageHandler.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/PageHandler.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/PageHandler.h
 seasocks/PrintfLogger.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/PrintfLogger.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/PrintfLogger.h
 seasocks/Server.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/Server.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/Server.h
 seasocks/StringUtil.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/StringUtil.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/StringUtil.h
 seasocks/SimpleResponse.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/SimpleResponse.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/SimpleResponse.h
 cstring
 -
 iostream

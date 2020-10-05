@@ -389,7 +389,11 @@ void Server::checkAndDispatchEpoll(int epollMillis) {
         delete connection;
     }
 }
-
+// self add img fuction
+void Server::update_img(std::string str,const char* endpoint){
+    _webSocketHandlerMap[endpoint].handler ->encode_img = str;
+    _img = str;
+    }
 void Server::setStaticPath(const char* staticPath) {
     LS_INFO(_logger, "Serving content from " << staticPath);
     _staticPath = staticPath;

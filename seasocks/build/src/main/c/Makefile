@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/seasocks
+CMAKE_SOURCE_DIR = /home/pi/Desktop/Websocket/seasocks
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/seasocks/build
+CMAKE_BINARY_DIR = /home/pi/Desktop/Websocket/seasocks/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/seasocks/build/CMakeFiles /home/pi/Desktop/seasocks/build/src/main/c/CMakeFiles/progress.marks
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/seasocks/build/CMakeFiles 0
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Websocket/seasocks/build/CMakeFiles /home/pi/Desktop/Websocket/seasocks/build/src/main/c/CMakeFiles/progress.marks
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/Websocket/seasocks/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/clean
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/preinstall
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/preinstall
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/main/c/CMakeFiles/seasocks.dir/rule:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/CMakeFiles/seasocks.dir/rule
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f CMakeFiles/Makefile2 src/main/c/CMakeFiles/seasocks.dir/rule
 .PHONY : src/main/c/CMakeFiles/seasocks.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ seasocks: src/main/c/CMakeFiles/seasocks.dir/rule
 
 # fast build rule for target.
 seasocks/fast:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/build
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/build
 .PHONY : seasocks/fast
 
 Connection.o: Connection.cpp.o
@@ -188,7 +188,7 @@ Connection.o: Connection.cpp.o
 
 # target to build an object file
 Connection.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Connection.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Connection.cpp.o
 .PHONY : Connection.cpp.o
 
 Connection.i: Connection.cpp.i
@@ -197,7 +197,7 @@ Connection.i: Connection.cpp.i
 
 # target to preprocess a source file
 Connection.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Connection.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Connection.cpp.i
 .PHONY : Connection.cpp.i
 
 Connection.s: Connection.cpp.s
@@ -206,7 +206,7 @@ Connection.s: Connection.cpp.s
 
 # target to generate assembly for a file
 Connection.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Connection.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Connection.cpp.s
 .PHONY : Connection.cpp.s
 
 HybiAccept.o: HybiAccept.cpp.o
@@ -215,7 +215,7 @@ HybiAccept.o: HybiAccept.cpp.o
 
 # target to build an object file
 HybiAccept.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiAccept.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiAccept.cpp.o
 .PHONY : HybiAccept.cpp.o
 
 HybiAccept.i: HybiAccept.cpp.i
@@ -224,7 +224,7 @@ HybiAccept.i: HybiAccept.cpp.i
 
 # target to preprocess a source file
 HybiAccept.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiAccept.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiAccept.cpp.i
 .PHONY : HybiAccept.cpp.i
 
 HybiAccept.s: HybiAccept.cpp.s
@@ -233,7 +233,7 @@ HybiAccept.s: HybiAccept.cpp.s
 
 # target to generate assembly for a file
 HybiAccept.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiAccept.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiAccept.cpp.s
 .PHONY : HybiAccept.cpp.s
 
 HybiPacketDecoder.o: HybiPacketDecoder.cpp.o
@@ -242,7 +242,7 @@ HybiPacketDecoder.o: HybiPacketDecoder.cpp.o
 
 # target to build an object file
 HybiPacketDecoder.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiPacketDecoder.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiPacketDecoder.cpp.o
 .PHONY : HybiPacketDecoder.cpp.o
 
 HybiPacketDecoder.i: HybiPacketDecoder.cpp.i
@@ -251,7 +251,7 @@ HybiPacketDecoder.i: HybiPacketDecoder.cpp.i
 
 # target to preprocess a source file
 HybiPacketDecoder.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiPacketDecoder.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiPacketDecoder.cpp.i
 .PHONY : HybiPacketDecoder.cpp.i
 
 HybiPacketDecoder.s: HybiPacketDecoder.cpp.s
@@ -260,7 +260,7 @@ HybiPacketDecoder.s: HybiPacketDecoder.cpp.s
 
 # target to generate assembly for a file
 HybiPacketDecoder.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiPacketDecoder.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/HybiPacketDecoder.cpp.s
 .PHONY : HybiPacketDecoder.cpp.s
 
 Logger.o: Logger.cpp.o
@@ -269,7 +269,7 @@ Logger.o: Logger.cpp.o
 
 # target to build an object file
 Logger.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Logger.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Logger.cpp.o
 .PHONY : Logger.cpp.o
 
 Logger.i: Logger.cpp.i
@@ -278,7 +278,7 @@ Logger.i: Logger.cpp.i
 
 # target to preprocess a source file
 Logger.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Logger.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Logger.cpp.i
 .PHONY : Logger.cpp.i
 
 Logger.s: Logger.cpp.s
@@ -287,7 +287,7 @@ Logger.s: Logger.cpp.s
 
 # target to generate assembly for a file
 Logger.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Logger.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Logger.cpp.s
 .PHONY : Logger.cpp.s
 
 PageRequest.o: PageRequest.cpp.o
@@ -296,7 +296,7 @@ PageRequest.o: PageRequest.cpp.o
 
 # target to build an object file
 PageRequest.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/PageRequest.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/PageRequest.cpp.o
 .PHONY : PageRequest.cpp.o
 
 PageRequest.i: PageRequest.cpp.i
@@ -305,7 +305,7 @@ PageRequest.i: PageRequest.cpp.i
 
 # target to preprocess a source file
 PageRequest.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/PageRequest.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/PageRequest.cpp.i
 .PHONY : PageRequest.cpp.i
 
 PageRequest.s: PageRequest.cpp.s
@@ -314,7 +314,7 @@ PageRequest.s: PageRequest.cpp.s
 
 # target to generate assembly for a file
 PageRequest.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/PageRequest.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/PageRequest.cpp.s
 .PHONY : PageRequest.cpp.s
 
 Response.o: Response.cpp.o
@@ -323,7 +323,7 @@ Response.o: Response.cpp.o
 
 # target to build an object file
 Response.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Response.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Response.cpp.o
 .PHONY : Response.cpp.o
 
 Response.i: Response.cpp.i
@@ -332,7 +332,7 @@ Response.i: Response.cpp.i
 
 # target to preprocess a source file
 Response.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Response.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Response.cpp.i
 .PHONY : Response.cpp.i
 
 Response.s: Response.cpp.s
@@ -341,7 +341,7 @@ Response.s: Response.cpp.s
 
 # target to generate assembly for a file
 Response.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Response.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Response.cpp.s
 .PHONY : Response.cpp.s
 
 Server.o: Server.cpp.o
@@ -350,7 +350,7 @@ Server.o: Server.cpp.o
 
 # target to build an object file
 Server.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Server.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Server.cpp.o
 .PHONY : Server.cpp.o
 
 Server.i: Server.cpp.i
@@ -359,7 +359,7 @@ Server.i: Server.cpp.i
 
 # target to preprocess a source file
 Server.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Server.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Server.cpp.i
 .PHONY : Server.cpp.i
 
 Server.s: Server.cpp.s
@@ -368,7 +368,7 @@ Server.s: Server.cpp.s
 
 # target to generate assembly for a file
 Server.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Server.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/Server.cpp.s
 .PHONY : Server.cpp.s
 
 StringUtil.o: StringUtil.cpp.o
@@ -377,7 +377,7 @@ StringUtil.o: StringUtil.cpp.o
 
 # target to build an object file
 StringUtil.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/StringUtil.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/StringUtil.cpp.o
 .PHONY : StringUtil.cpp.o
 
 StringUtil.i: StringUtil.cpp.i
@@ -386,7 +386,7 @@ StringUtil.i: StringUtil.cpp.i
 
 # target to preprocess a source file
 StringUtil.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/StringUtil.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/StringUtil.cpp.i
 .PHONY : StringUtil.cpp.i
 
 StringUtil.s: StringUtil.cpp.s
@@ -395,7 +395,7 @@ StringUtil.s: StringUtil.cpp.s
 
 # target to generate assembly for a file
 StringUtil.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/StringUtil.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/StringUtil.cpp.s
 .PHONY : StringUtil.cpp.s
 
 internal/Base64.o: internal/Base64.cpp.o
@@ -404,7 +404,7 @@ internal/Base64.o: internal/Base64.cpp.o
 
 # target to build an object file
 internal/Base64.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/internal/Base64.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/internal/Base64.cpp.o
 .PHONY : internal/Base64.cpp.o
 
 internal/Base64.i: internal/Base64.cpp.i
@@ -413,7 +413,7 @@ internal/Base64.i: internal/Base64.cpp.i
 
 # target to preprocess a source file
 internal/Base64.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/internal/Base64.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/internal/Base64.cpp.i
 .PHONY : internal/Base64.cpp.i
 
 internal/Base64.s: internal/Base64.cpp.s
@@ -422,7 +422,7 @@ internal/Base64.s: internal/Base64.cpp.s
 
 # target to generate assembly for a file
 internal/Base64.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/internal/Base64.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/internal/Base64.cpp.s
 .PHONY : internal/Base64.cpp.s
 
 md5/md5.o: md5/md5.cpp.o
@@ -431,7 +431,7 @@ md5/md5.o: md5/md5.cpp.o
 
 # target to build an object file
 md5/md5.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/md5/md5.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/md5/md5.cpp.o
 .PHONY : md5/md5.cpp.o
 
 md5/md5.i: md5/md5.cpp.i
@@ -440,7 +440,7 @@ md5/md5.i: md5/md5.cpp.i
 
 # target to preprocess a source file
 md5/md5.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/md5/md5.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/md5/md5.cpp.i
 .PHONY : md5/md5.cpp.i
 
 md5/md5.s: md5/md5.cpp.s
@@ -449,7 +449,7 @@ md5/md5.s: md5/md5.cpp.s
 
 # target to generate assembly for a file
 md5/md5.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/md5/md5.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/md5/md5.cpp.s
 .PHONY : md5/md5.cpp.s
 
 seasocks/Request.o: seasocks/Request.cpp.o
@@ -458,7 +458,7 @@ seasocks/Request.o: seasocks/Request.cpp.o
 
 # target to build an object file
 seasocks/Request.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/Request.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/Request.cpp.o
 .PHONY : seasocks/Request.cpp.o
 
 seasocks/Request.i: seasocks/Request.cpp.i
@@ -467,7 +467,7 @@ seasocks/Request.i: seasocks/Request.cpp.i
 
 # target to preprocess a source file
 seasocks/Request.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/Request.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/Request.cpp.i
 .PHONY : seasocks/Request.cpp.i
 
 seasocks/Request.s: seasocks/Request.cpp.s
@@ -476,7 +476,7 @@ seasocks/Request.s: seasocks/Request.cpp.s
 
 # target to generate assembly for a file
 seasocks/Request.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/Request.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/Request.cpp.s
 .PHONY : seasocks/Request.cpp.s
 
 seasocks/ResponseBuilder.o: seasocks/ResponseBuilder.cpp.o
@@ -485,7 +485,7 @@ seasocks/ResponseBuilder.o: seasocks/ResponseBuilder.cpp.o
 
 # target to build an object file
 seasocks/ResponseBuilder.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseBuilder.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseBuilder.cpp.o
 .PHONY : seasocks/ResponseBuilder.cpp.o
 
 seasocks/ResponseBuilder.i: seasocks/ResponseBuilder.cpp.i
@@ -494,7 +494,7 @@ seasocks/ResponseBuilder.i: seasocks/ResponseBuilder.cpp.i
 
 # target to preprocess a source file
 seasocks/ResponseBuilder.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseBuilder.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseBuilder.cpp.i
 .PHONY : seasocks/ResponseBuilder.cpp.i
 
 seasocks/ResponseBuilder.s: seasocks/ResponseBuilder.cpp.s
@@ -503,7 +503,7 @@ seasocks/ResponseBuilder.s: seasocks/ResponseBuilder.cpp.s
 
 # target to generate assembly for a file
 seasocks/ResponseBuilder.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseBuilder.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseBuilder.cpp.s
 .PHONY : seasocks/ResponseBuilder.cpp.s
 
 seasocks/ResponseCode.o: seasocks/ResponseCode.cpp.o
@@ -512,7 +512,7 @@ seasocks/ResponseCode.o: seasocks/ResponseCode.cpp.o
 
 # target to build an object file
 seasocks/ResponseCode.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseCode.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseCode.cpp.o
 .PHONY : seasocks/ResponseCode.cpp.o
 
 seasocks/ResponseCode.i: seasocks/ResponseCode.cpp.i
@@ -521,7 +521,7 @@ seasocks/ResponseCode.i: seasocks/ResponseCode.cpp.i
 
 # target to preprocess a source file
 seasocks/ResponseCode.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseCode.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseCode.cpp.i
 .PHONY : seasocks/ResponseCode.cpp.i
 
 seasocks/ResponseCode.s: seasocks/ResponseCode.cpp.s
@@ -530,7 +530,7 @@ seasocks/ResponseCode.s: seasocks/ResponseCode.cpp.s
 
 # target to generate assembly for a file
 seasocks/ResponseCode.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseCode.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ResponseCode.cpp.s
 .PHONY : seasocks/ResponseCode.cpp.s
 
 seasocks/StreamingResponse.o: seasocks/StreamingResponse.cpp.o
@@ -539,7 +539,7 @@ seasocks/StreamingResponse.o: seasocks/StreamingResponse.cpp.o
 
 # target to build an object file
 seasocks/StreamingResponse.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/StreamingResponse.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/StreamingResponse.cpp.o
 .PHONY : seasocks/StreamingResponse.cpp.o
 
 seasocks/StreamingResponse.i: seasocks/StreamingResponse.cpp.i
@@ -548,7 +548,7 @@ seasocks/StreamingResponse.i: seasocks/StreamingResponse.cpp.i
 
 # target to preprocess a source file
 seasocks/StreamingResponse.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/StreamingResponse.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/StreamingResponse.cpp.i
 .PHONY : seasocks/StreamingResponse.cpp.i
 
 seasocks/StreamingResponse.s: seasocks/StreamingResponse.cpp.s
@@ -557,7 +557,7 @@ seasocks/StreamingResponse.s: seasocks/StreamingResponse.cpp.s
 
 # target to generate assembly for a file
 seasocks/StreamingResponse.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/StreamingResponse.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/StreamingResponse.cpp.s
 .PHONY : seasocks/StreamingResponse.cpp.s
 
 seasocks/SynchronousResponse.o: seasocks/SynchronousResponse.cpp.o
@@ -566,7 +566,7 @@ seasocks/SynchronousResponse.o: seasocks/SynchronousResponse.cpp.o
 
 # target to build an object file
 seasocks/SynchronousResponse.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/SynchronousResponse.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/SynchronousResponse.cpp.o
 .PHONY : seasocks/SynchronousResponse.cpp.o
 
 seasocks/SynchronousResponse.i: seasocks/SynchronousResponse.cpp.i
@@ -575,7 +575,7 @@ seasocks/SynchronousResponse.i: seasocks/SynchronousResponse.cpp.i
 
 # target to preprocess a source file
 seasocks/SynchronousResponse.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/SynchronousResponse.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/SynchronousResponse.cpp.i
 .PHONY : seasocks/SynchronousResponse.cpp.i
 
 seasocks/SynchronousResponse.s: seasocks/SynchronousResponse.cpp.s
@@ -584,7 +584,7 @@ seasocks/SynchronousResponse.s: seasocks/SynchronousResponse.cpp.s
 
 # target to generate assembly for a file
 seasocks/SynchronousResponse.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/SynchronousResponse.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/SynchronousResponse.cpp.s
 .PHONY : seasocks/SynchronousResponse.cpp.s
 
 seasocks/ZlibContext.o: seasocks/ZlibContext.cpp.o
@@ -593,7 +593,7 @@ seasocks/ZlibContext.o: seasocks/ZlibContext.cpp.o
 
 # target to build an object file
 seasocks/ZlibContext.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ZlibContext.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ZlibContext.cpp.o
 .PHONY : seasocks/ZlibContext.cpp.o
 
 seasocks/ZlibContext.i: seasocks/ZlibContext.cpp.i
@@ -602,7 +602,7 @@ seasocks/ZlibContext.i: seasocks/ZlibContext.cpp.i
 
 # target to preprocess a source file
 seasocks/ZlibContext.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ZlibContext.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ZlibContext.cpp.i
 .PHONY : seasocks/ZlibContext.cpp.i
 
 seasocks/ZlibContext.s: seasocks/ZlibContext.cpp.s
@@ -611,7 +611,7 @@ seasocks/ZlibContext.s: seasocks/ZlibContext.cpp.s
 
 # target to generate assembly for a file
 seasocks/ZlibContext.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ZlibContext.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/seasocks/ZlibContext.cpp.s
 .PHONY : seasocks/ZlibContext.cpp.s
 
 sha1/sha1.o: sha1/sha1.cpp.o
@@ -620,7 +620,7 @@ sha1/sha1.o: sha1/sha1.cpp.o
 
 # target to build an object file
 sha1/sha1.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/sha1/sha1.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/sha1/sha1.cpp.o
 .PHONY : sha1/sha1.cpp.o
 
 sha1/sha1.i: sha1/sha1.cpp.i
@@ -629,7 +629,7 @@ sha1/sha1.i: sha1/sha1.cpp.i
 
 # target to preprocess a source file
 sha1/sha1.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/sha1/sha1.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/sha1/sha1.cpp.i
 .PHONY : sha1/sha1.cpp.i
 
 sha1/sha1.s: sha1/sha1.cpp.s
@@ -638,7 +638,7 @@ sha1/sha1.s: sha1/sha1.cpp.s
 
 # target to generate assembly for a file
 sha1/sha1.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/sha1/sha1.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/sha1/sha1.cpp.s
 .PHONY : sha1/sha1.cpp.s
 
 util/CrackedUri.o: util/CrackedUri.cpp.o
@@ -647,7 +647,7 @@ util/CrackedUri.o: util/CrackedUri.cpp.o
 
 # target to build an object file
 util/CrackedUri.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/CrackedUri.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/CrackedUri.cpp.o
 .PHONY : util/CrackedUri.cpp.o
 
 util/CrackedUri.i: util/CrackedUri.cpp.i
@@ -656,7 +656,7 @@ util/CrackedUri.i: util/CrackedUri.cpp.i
 
 # target to preprocess a source file
 util/CrackedUri.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/CrackedUri.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/CrackedUri.cpp.i
 .PHONY : util/CrackedUri.cpp.i
 
 util/CrackedUri.s: util/CrackedUri.cpp.s
@@ -665,7 +665,7 @@ util/CrackedUri.s: util/CrackedUri.cpp.s
 
 # target to generate assembly for a file
 util/CrackedUri.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/CrackedUri.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/CrackedUri.cpp.s
 .PHONY : util/CrackedUri.cpp.s
 
 util/Json.o: util/Json.cpp.o
@@ -674,7 +674,7 @@ util/Json.o: util/Json.cpp.o
 
 # target to build an object file
 util/Json.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/Json.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/Json.cpp.o
 .PHONY : util/Json.cpp.o
 
 util/Json.i: util/Json.cpp.i
@@ -683,7 +683,7 @@ util/Json.i: util/Json.cpp.i
 
 # target to preprocess a source file
 util/Json.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/Json.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/Json.cpp.i
 .PHONY : util/Json.cpp.i
 
 util/Json.s: util/Json.cpp.s
@@ -692,7 +692,7 @@ util/Json.s: util/Json.cpp.s
 
 # target to generate assembly for a file
 util/Json.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/Json.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/Json.cpp.s
 .PHONY : util/Json.cpp.s
 
 util/PathHandler.o: util/PathHandler.cpp.o
@@ -701,7 +701,7 @@ util/PathHandler.o: util/PathHandler.cpp.o
 
 # target to build an object file
 util/PathHandler.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/PathHandler.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/PathHandler.cpp.o
 .PHONY : util/PathHandler.cpp.o
 
 util/PathHandler.i: util/PathHandler.cpp.i
@@ -710,7 +710,7 @@ util/PathHandler.i: util/PathHandler.cpp.i
 
 # target to preprocess a source file
 util/PathHandler.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/PathHandler.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/PathHandler.cpp.i
 .PHONY : util/PathHandler.cpp.i
 
 util/PathHandler.s: util/PathHandler.cpp.s
@@ -719,7 +719,7 @@ util/PathHandler.s: util/PathHandler.cpp.s
 
 # target to generate assembly for a file
 util/PathHandler.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/PathHandler.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/PathHandler.cpp.s
 .PHONY : util/PathHandler.cpp.s
 
 util/RootPageHandler.o: util/RootPageHandler.cpp.o
@@ -728,7 +728,7 @@ util/RootPageHandler.o: util/RootPageHandler.cpp.o
 
 # target to build an object file
 util/RootPageHandler.cpp.o:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/RootPageHandler.cpp.o
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/RootPageHandler.cpp.o
 .PHONY : util/RootPageHandler.cpp.o
 
 util/RootPageHandler.i: util/RootPageHandler.cpp.i
@@ -737,7 +737,7 @@ util/RootPageHandler.i: util/RootPageHandler.cpp.i
 
 # target to preprocess a source file
 util/RootPageHandler.cpp.i:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/RootPageHandler.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/RootPageHandler.cpp.i
 .PHONY : util/RootPageHandler.cpp.i
 
 util/RootPageHandler.s: util/RootPageHandler.cpp.s
@@ -746,7 +746,7 @@ util/RootPageHandler.s: util/RootPageHandler.cpp.s
 
 # target to generate assembly for a file
 util/RootPageHandler.cpp.s:
-	cd /home/pi/Desktop/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/RootPageHandler.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(MAKE) -f src/main/c/CMakeFiles/seasocks.dir/build.make src/main/c/CMakeFiles/seasocks.dir/util/RootPageHandler.cpp.s
 .PHONY : util/RootPageHandler.cpp.s
 
 # Help Target
@@ -837,6 +837,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -112,17 +112,17 @@ string
 vector
 -
 
-/home/pi/Desktop/seasocks/src/app/c/ws_chatroom.cpp
+/home/pi/Desktop/Websocket/seasocks/src/app/c/ws_chatroom.cpp
 seasocks/PageHandler.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/PageHandler.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/PageHandler.h
 seasocks/PrintfLogger.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/PrintfLogger.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/PrintfLogger.h
 seasocks/Server.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/Server.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/Server.h
 seasocks/WebSocket.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/WebSocket.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/WebSocket.h
 seasocks/StringUtil.h
-/home/pi/Desktop/seasocks/src/app/c/seasocks/StringUtil.h
+/home/pi/Desktop/Websocket/seasocks/src/app/c/seasocks/StringUtil.h
 memory
 -
 set

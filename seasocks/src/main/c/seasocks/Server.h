@@ -52,7 +52,8 @@ class Server : private ServerImpl {
 public:
     explicit Server(std::shared_ptr<Logger> logger);
     virtual ~Server();
-
+    virtual std::shared_ptr<WebSocket::Handler> getWebSocketHandler(const char* endpoint) const override;
+    void update_img(std::string str,const char* endpoint);
     void addPageHandler(std::shared_ptr<PageHandler> handler);
 
     void addWebSocketHandler(const char* endpoint, std::shared_ptr<WebSocket::Handler> handler,
@@ -146,7 +147,7 @@ private:
     virtual const std::string& getStaticPath() const override {
         return _staticPath;
     }
-    virtual std::shared_ptr<WebSocket::Handler> getWebSocketHandler(const char* endpoint) const override;
+    
     virtual bool isCrossOriginAllowed(const std::string& endpoint) const override;
     virtual std::shared_ptr<Response> handle(const Request& request) override;
     virtual std::string getStatsDocument() const override;
@@ -154,13 +155,14 @@ private:
     virtual Server& server() override {
         return *this;
     }
-
+    // self add img
+    std::string _img;
     bool makeNonBlocking(int fd) const;
     bool configureSocket(int fd) const;
     void handleAccept();
     void processEventQueue();
     void runExecutables();
-
+    
     void shutdown();
 
     void checkAndDispatchEpoll(int epollMillis);

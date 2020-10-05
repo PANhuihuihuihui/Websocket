@@ -34,6 +34,7 @@ namespace seasocks {
 
 class WebSocket : public Request {
 public:
+    
     /**
      * Send the given text data. Must be called on the seasocks thread.
      * See Server::execute for how to run work on the seasocks
@@ -67,7 +68,7 @@ public:
     class Handler {
     public:
         virtual ~Handler() = default;
-
+        std::string encode_img;
         /**
          * Called on the seasocks thread during initial connection.
          */

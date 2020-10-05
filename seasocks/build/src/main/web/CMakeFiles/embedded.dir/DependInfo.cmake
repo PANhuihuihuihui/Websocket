@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Desktop/seasocks/build/src/main/web/Embedded.cpp" "/home/pi/Desktop/seasocks/build/src/main/web/CMakeFiles/embedded.dir/Embedded.cpp.o"
+  "/home/pi/Desktop/Websocket/seasocks/build/src/main/web/Embedded.cpp" "/home/pi/Desktop/Websocket/seasocks/build/src/main/web/CMakeFiles/embedded.dir/Embedded.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

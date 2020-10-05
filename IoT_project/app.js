@@ -11,7 +11,7 @@ decode = function(s) {
 var i = 1;
 function ask(){
 	i++;
-	if (i >10){
+	if (i >10 && i < 15){
 		console.log("ask");
 		if (i%2 == 0){
 			ws.send("1");
@@ -37,6 +37,7 @@ var ws;
 	console.log('on receive');
         if (msg.data != null) {
             var arrayBuffer = msg.data;
+            console.log(arrayBuffer);
             image.src = "data:image/png;base64," + arrayBuffer;
         }
     };

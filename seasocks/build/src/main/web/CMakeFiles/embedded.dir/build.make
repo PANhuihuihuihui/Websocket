@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/seasocks
+CMAKE_SOURCE_DIR = /home/pi/Desktop/Websocket/seasocks
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/seasocks/build
+CMAKE_BINARY_DIR = /home/pi/Desktop/Websocket/seasocks/build
 
 # Include any dependencies generated for this target.
 include src/main/web/CMakeFiles/embedded.dir/depend.make
@@ -58,21 +58,21 @@ include src/main/web/CMakeFiles/embedded.dir/progress.make
 include src/main/web/CMakeFiles/embedded.dir/flags.make
 
 src/main/web/Embedded.cpp: ../scripts/gen_embedded.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/Desktop/seasocks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating embedded content"
-	cd /home/pi/Desktop/seasocks/build/src/main/web && /usr/bin/python /home/pi/Desktop/seasocks/scripts/gen_embedded.py -o Embedded.cpp -f /home/pi/Desktop/seasocks/src/main/web/_404.png /home/pi/Desktop/seasocks/src/main/web/_error.css /home/pi/Desktop/seasocks/src/main/web/_error.html /home/pi/Desktop/seasocks/src/main/web/favicon.ico /home/pi/Desktop/seasocks/src/main/web/_jquery.min.js /home/pi/Desktop/seasocks/src/main/web/_seasocks.css /home/pi/Desktop/seasocks/src/main/web/_stats.html
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/Desktop/Websocket/seasocks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating embedded content"
+	cd /home/pi/Desktop/Websocket/seasocks/build/src/main/web && /usr/bin/python /home/pi/Desktop/Websocket/seasocks/scripts/gen_embedded.py -o Embedded.cpp -f /home/pi/Desktop/Websocket/seasocks/src/main/web/_404.png /home/pi/Desktop/Websocket/seasocks/src/main/web/_error.css /home/pi/Desktop/Websocket/seasocks/src/main/web/_error.html /home/pi/Desktop/Websocket/seasocks/src/main/web/favicon.ico /home/pi/Desktop/Websocket/seasocks/src/main/web/_jquery.min.js /home/pi/Desktop/Websocket/seasocks/src/main/web/_seasocks.css /home/pi/Desktop/Websocket/seasocks/src/main/web/_stats.html
 
 src/main/web/CMakeFiles/embedded.dir/Embedded.cpp.o: src/main/web/CMakeFiles/embedded.dir/flags.make
 src/main/web/CMakeFiles/embedded.dir/Embedded.cpp.o: src/main/web/Embedded.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/seasocks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/main/web/CMakeFiles/embedded.dir/Embedded.cpp.o"
-	cd /home/pi/Desktop/seasocks/build/src/main/web && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/embedded.dir/Embedded.cpp.o -c /home/pi/Desktop/seasocks/build/src/main/web/Embedded.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Websocket/seasocks/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/main/web/CMakeFiles/embedded.dir/Embedded.cpp.o"
+	cd /home/pi/Desktop/Websocket/seasocks/build/src/main/web && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/embedded.dir/Embedded.cpp.o -c /home/pi/Desktop/Websocket/seasocks/build/src/main/web/Embedded.cpp
 
 src/main/web/CMakeFiles/embedded.dir/Embedded.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/embedded.dir/Embedded.cpp.i"
-	cd /home/pi/Desktop/seasocks/build/src/main/web && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/seasocks/build/src/main/web/Embedded.cpp > CMakeFiles/embedded.dir/Embedded.cpp.i
+	cd /home/pi/Desktop/Websocket/seasocks/build/src/main/web && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/Websocket/seasocks/build/src/main/web/Embedded.cpp > CMakeFiles/embedded.dir/Embedded.cpp.i
 
 src/main/web/CMakeFiles/embedded.dir/Embedded.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/embedded.dir/Embedded.cpp.s"
-	cd /home/pi/Desktop/seasocks/build/src/main/web && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/seasocks/build/src/main/web/Embedded.cpp -o CMakeFiles/embedded.dir/Embedded.cpp.s
+	cd /home/pi/Desktop/Websocket/seasocks/build/src/main/web && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/Websocket/seasocks/build/src/main/web/Embedded.cpp -o CMakeFiles/embedded.dir/Embedded.cpp.s
 
 embedded: src/main/web/CMakeFiles/embedded.dir/Embedded.cpp.o
 embedded: src/main/web/CMakeFiles/embedded.dir/build.make
@@ -85,10 +85,10 @@ src/main/web/CMakeFiles/embedded.dir/build: embedded
 .PHONY : src/main/web/CMakeFiles/embedded.dir/build
 
 src/main/web/CMakeFiles/embedded.dir/clean:
-	cd /home/pi/Desktop/seasocks/build/src/main/web && $(CMAKE_COMMAND) -P CMakeFiles/embedded.dir/cmake_clean.cmake
+	cd /home/pi/Desktop/Websocket/seasocks/build/src/main/web && $(CMAKE_COMMAND) -P CMakeFiles/embedded.dir/cmake_clean.cmake
 .PHONY : src/main/web/CMakeFiles/embedded.dir/clean
 
 src/main/web/CMakeFiles/embedded.dir/depend: src/main/web/Embedded.cpp
-	cd /home/pi/Desktop/seasocks/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Desktop/seasocks /home/pi/Desktop/seasocks/src/main/web /home/pi/Desktop/seasocks/build /home/pi/Desktop/seasocks/build/src/main/web /home/pi/Desktop/seasocks/build/src/main/web/CMakeFiles/embedded.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Desktop/Websocket/seasocks/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Desktop/Websocket/seasocks /home/pi/Desktop/Websocket/seasocks/src/main/web /home/pi/Desktop/Websocket/seasocks/build /home/pi/Desktop/Websocket/seasocks/build/src/main/web /home/pi/Desktop/Websocket/seasocks/build/src/main/web/CMakeFiles/embedded.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/main/web/CMakeFiles/embedded.dir/depend
 

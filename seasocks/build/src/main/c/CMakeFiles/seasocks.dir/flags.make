@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Werror -Wextra -pedantic -pedantic-errors -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pi/Desktop/seasocks/src/main/c/. -I/home/pi/Desktop/seasocks/build/. 
+CXX_INCLUDES = -I/home/pi/Desktop/Websocket/seasocks/src/main/c/. -I/home/pi/Desktop/Websocket/seasocks/build/. 
 

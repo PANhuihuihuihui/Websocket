@@ -15,42 +15,42 @@ src/test/c/CMakeFiles/AllTests.dir/ConnectionTests.cpp.o
  ../src/main/c/./seasocks/WebSocket.h
  ../src/main/c/./seasocks/ZlibContext.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/ConnectionTests.cpp
- /home/pi/Desktop/seasocks/src/test/c/MockServerImpl.h
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/ConnectionTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/MockServerImpl.h
 src/test/c/CMakeFiles/AllTests.dir/CrackedUriTests.cpp.o
  ../src/main/c/./seasocks/util/CrackedUri.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/CrackedUriTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/CrackedUriTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/EmbeddedContentTests.cpp.o
  ../src/main/c/./internal/Embedded.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/EmbeddedContentTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/EmbeddedContentTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/HeaderMapTests.cpp.o
  ../src/main/c/./internal/HeaderMap.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/HeaderMapTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/HeaderMapTests.cpp
  internal/Config.h
 src/test/c/CMakeFiles/AllTests.dir/HtmlTests.cpp.o
  ../src/main/c/./seasocks/ToString.h
  ../src/main/c/./seasocks/util/Html.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/HtmlTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/HtmlTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/HybiTests.cpp.o
  ../src/main/c/./internal/HybiAccept.h
  ../src/main/c/./internal/HybiPacketDecoder.h
  ../src/main/c/./seasocks/IgnoringLogger.h
  ../src/main/c/./seasocks/Logger.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/HybiTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/HybiTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/JsonTests.cpp.o
  ../src/main/c/./seasocks/util/Json.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/JsonTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/JsonTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/RequestTest.cpp.o
  ../src/main/c/./seasocks/Credentials.h
  ../src/main/c/./seasocks/Request.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/RequestTest.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/RequestTest.cpp
 src/test/c/CMakeFiles/AllTests.dir/ResponseBuilderTests.cpp.o
  ../src/main/c/./seasocks/Response.h
  ../src/main/c/./seasocks/ResponseBuilder.h
@@ -61,7 +61,7 @@ src/test/c/CMakeFiles/AllTests.dir/ResponseBuilderTests.cpp.o
  ../src/main/c/./seasocks/ToString.h
  ../src/main/c/./seasocks/TransferEncoding.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/ResponseBuilderTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/ResponseBuilderTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/ResponseTests.cpp.o
  ../src/main/c/./internal/ConcreteResponse.h
  ../src/main/c/./seasocks/Response.h
@@ -71,7 +71,7 @@ src/test/c/CMakeFiles/AllTests.dir/ResponseTests.cpp.o
  ../src/main/c/./seasocks/SynchronousResponse.h
  ../src/main/c/./seasocks/TransferEncoding.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/ResponseTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/ResponseTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/ServerTests.cpp.o
  ../src/main/c/./seasocks/Connection.h
  ../src/main/c/./seasocks/Credentials.h
@@ -87,15 +87,15 @@ src/test/c/CMakeFiles/AllTests.dir/ServerTests.cpp.o
  ../src/main/c/./seasocks/WebSocket.h
  ../src/main/c/./seasocks/ZlibContext.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/ServerTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/ServerTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/StringUtilTests.cpp.o
  ../src/main/c/./seasocks/StringUtil.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/StringUtilTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/StringUtilTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/ToStringTests.cpp.o
  ../src/main/c/./seasocks/ToString.h
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/ToStringTests.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/ToStringTests.cpp
 src/test/c/CMakeFiles/AllTests.dir/test_main.cpp.o
  ../src/test/c/catch/catch2/catch.hpp
- /home/pi/Desktop/seasocks/src/test/c/test_main.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/test/c/test_main.cpp

@@ -22,7 +22,7 @@ all: server
 server: server.cpp
 	$(CXX) $(INCLUDES) server.cpp $(LIBS) $(LDFLAGS) -o server
 cv2:cv2.cpp base64.o
-	$(CXX) $(INCLUDES) base64.o cv2.cpp $(LIBS) $(LINKLIBS) $(LDFLAGS) -o cv2 
+	$(CXX) $(INCLUDES) cv2.cpp $(LIBS) $(LINKLIBS) $(LDFLAGS) -o cv2 
 base64.o: base64.cpp base64.h
 	$(CXX) $(INCLUDES) base64.cpp $(LIBS) $(LDFLAGS) -c
 clean:

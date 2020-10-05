@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Desktop/seasocks
+# Install script for directory: /home/pi/Desktop/Websocket/seasocks
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,18 +39,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Seasocks" TYPE FILE FILES
-    "/home/pi/Desktop/seasocks/build/SeasocksConfig.cmake"
-    "/home/pi/Desktop/seasocks/build/SeasocksConfigVersion.cmake"
+    "/home/pi/Desktop/Websocket/seasocks/build/SeasocksConfig.cmake"
+    "/home/pi/Desktop/Websocket/seasocks/build/SeasocksConfigVersion.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/Seasocks" TYPE FILE FILES "/home/pi/Desktop/seasocks/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/Seasocks" TYPE FILE FILES "/home/pi/Desktop/Websocket/seasocks/LICENSE")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pi/Desktop/seasocks/build/src/cmake_install.cmake")
+  include("/home/pi/Desktop/Websocket/seasocks/build/src/cmake_install.cmake")
 
 endif()
 
@@ -62,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/Desktop/seasocks/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/Desktop/Websocket/seasocks/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

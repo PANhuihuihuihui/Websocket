@@ -10,9 +10,9 @@
 string
 -
 
-/home/pi/Desktop/seasocks/build/src/main/web/Embedded.cpp
+/home/pi/Desktop/Websocket/seasocks/build/src/main/web/Embedded.cpp
 internal/Embedded.h
-/home/pi/Desktop/seasocks/build/src/main/web/internal/Embedded.h
+/home/pi/Desktop/Websocket/seasocks/build/src/main/web/internal/Embedded.h
 string
 -
 unordered_map

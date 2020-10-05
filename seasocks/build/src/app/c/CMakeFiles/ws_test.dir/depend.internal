@@ -11,4 +11,4 @@ src/app/c/CMakeFiles/ws_test.dir/ws_test.cpp.o
  ../src/main/c/./seasocks/StringUtil.h
  ../src/main/c/./seasocks/WebSocket.h
  ../src/main/c/./seasocks/util/Json.h
- /home/pi/Desktop/seasocks/src/app/c/ws_test.cpp
+ /home/pi/Desktop/Websocket/seasocks/src/app/c/ws_test.cpp
