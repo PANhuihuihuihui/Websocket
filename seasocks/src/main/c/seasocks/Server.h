@@ -54,6 +54,8 @@ public:
     virtual ~Server();
     virtual std::shared_ptr<WebSocket::Handler> getWebSocketHandler(const char* endpoint) const override;
     void update_img(std::string str,const char* endpoint);
+    // self add img
+    std::string _img;
     void addPageHandler(std::shared_ptr<PageHandler> handler);
 
     void addWebSocketHandler(const char* endpoint, std::shared_ptr<WebSocket::Handler> handler,
@@ -138,6 +140,7 @@ public:
     void execute(std::shared_ptr<Runnable> runnable);
     using Executable = std::function<void()>;
     void execute(Executable toExecute);
+    std::atomic<bool> _terminate;
 
 private:
     // From ServerImpl
@@ -155,8 +158,6 @@ private:
     virtual Server& server() override {
         return *this;
     }
-    // self add img
-    std::string _img;
     bool makeNonBlocking(int fd) const;
     bool configureSocket(int fd) const;
     void handleAccept();
@@ -200,7 +201,6 @@ private:
     pid_t _threadId;
 
     std::string _staticPath;
-    std::atomic<bool> _terminate;
     std::atomic<bool> _expectedTerminate;
 };
 
